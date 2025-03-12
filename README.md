@@ -1,2 +1,2 @@
 # Organoid-imaging-analysis
-This is the official implementation of Foundation model for organoid imaging digital markers, the code and data will come soon!!!
+This is the official implementation of paper: A Large Model-Derived Algorithm for Complex Organoids with Internal Morphogenesis and Digital Marker Derivation
