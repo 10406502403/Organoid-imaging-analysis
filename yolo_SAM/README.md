@@ -1,0 +1,1 @@
+TO Start with, please download the pre-trained weights for SAM at https://github.com/facebookresearch/segment-anything, There are three pre-trained weights of different parameter sizes available for download, namely ViT-H SAM model, ViT-L SAM model, and ViT-B SAM model.
