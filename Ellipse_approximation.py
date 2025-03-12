@@ -24,7 +24,7 @@ def main():
 
     result_image = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)  
       
-    cv2.ellipse(result_image, ellipse, (0, 0, 255),1)  # 使用绿色绘制椭圆轮廓，线宽为2  
+    cv2.ellipse(result_image, ellipse, (0, 0, 255),1)  
     result_image = cv2.cvtColor(result_image, cv2.COLOR_BGR2RGB)   
     plt.figure(figsize=(10, 5))  
     plt.title('Mask with Ellipse Contour')  
