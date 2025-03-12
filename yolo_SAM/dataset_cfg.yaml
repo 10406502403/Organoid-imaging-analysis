@@ -1,0 +1,8 @@
+path: your root path
+train: your train data path  # train images (relative to 'path') 128 images
+val: your test data path  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  xx: xxx  # replace to your label (Your instructions when labeling)
