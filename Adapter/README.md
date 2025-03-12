@@ -14,8 +14,6 @@ pip install -r requirements.txt
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch train.py --nnodes 1 --nproc_per_node 4 --config [CONFIG_PATH]
 ```
-!Please note that the SAM model consume much memory. We use A100 graphics card for training. If you encounter the memory issue, please try to use graphics cards with larger memory!
-
 
 ```bash
 !torchrun train.py --config configs/demo.yaml
