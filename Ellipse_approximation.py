@@ -14,7 +14,7 @@ def fit_ellipse_to_mask(mask):
     return ellipse  
   
 def main():  
-    mask = cv2.imread('/home/featurize/work/xhh/dm/image6.jpg', cv2.IMREAD_GRAYSCALE)  
+    mask = cv2.imread('Your organoid mask', cv2.IMREAD_GRAYSCALE)  
     _, mask = cv2.threshold(mask, 127, 255, cv2.THRESH_BINARY)  
     try:  
         ellipse = fit_ellipse_to_mask(mask)  
